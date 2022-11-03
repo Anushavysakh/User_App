@@ -10,16 +10,13 @@ class _WelcomePageState extends State<WelcomePage> {
 
   String name;
 
-
   _WelcomePageState({required this.name});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Welcome $name",),
       ),
-
     );
   }
 
